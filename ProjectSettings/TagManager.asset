@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - DeathTouch
+  - Ground
+  - Enemy
+  - Spikes
+  - Quit
+  - Play
+  - NextLevel
+  - Boss
+  - Collect
+  - Cactus
   layers:
   - Default
   - TransparentFX
@@ -13,14 +23,14 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Background
+  - Foreground
+  - Ground
+  - Enemy
+  - Pit
+  - Player
+  - Projectile
+  - Collect
   - 
   - 
   - 
@@ -38,6 +48,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Collect
+    uniqueID: 1625890185
+    locked: 0
+  - name: background backround
+    uniqueID: 2126296595
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3302001451
+    locked: 0
+  - name: Foreground
+    uniqueID: 2383610329
     locked: 0
